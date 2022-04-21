@@ -5,8 +5,7 @@
 最初就是一个简单的图像分类问题。但是随便拿了个模型一跑，嗯。。。精度低的离谱。
 最初好像top1才刚到20%。训练集一共五百多张图片，还是八分类，图片还抽象的离谱。所以就开始不断地尝试提点了。。。
 
-
-####项目地址： https://github.com/mycfhs/mycf_emo_recog
+项目地址： https://github.com/mycfhs/mycf_emo_recog
 
 ## 文件目录
 
@@ -18,7 +17,8 @@
 
 --------两个数据集的txt和一堆py文件
 
-###下载地址（百度网盘）：
+### 下载地址（百度网盘）：
+
 haarshare：
 链接：https://pan.baidu.com/s/1qNbRf8ShCIZc8d-ttA129Q 
 
