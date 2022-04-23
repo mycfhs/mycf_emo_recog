@@ -14,8 +14,8 @@ test_dataset = DataLoader(test_data, batch_size=1, shuffle=True, num_workers=NUM
 print('data loaded!')
 # 数据加载，模型训练等代码需要自己补全
 
-model = models.vgg19_bn(pretrained=True)
-# model = models.vit_b_32(pretrained=True)
+# model = models.vgg19_bn(pretrained=True)
+model = models.vit_b_32(pretrained=True)
 # model.heads=torch.nn.Sequential(torch.nn.Linear(1000, 8))
 # model.classifier[6] = torch.nn.Sequential(torch.nn.Linear(4096, 8))
 model.classifier = torch.nn.Sequential(torch.nn.Linear(25088, 8),
